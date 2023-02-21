@@ -57,6 +57,10 @@ export default siteConfig({
   navigationStyle: 'custom',
   navigationLinks: [
     {
+      title: 'Projects',
+      pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
+    },
+    {
       title: 'About',
       pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
     },
