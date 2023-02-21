@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Bột cần tây sấy lanh',
+  name: 'Bột cần tây sấy lạnh',
   domain: 'botcantaysaylanh.com',
   author: 'MeliFarm.vn',
  
@@ -21,7 +21,7 @@ export default siteConfig({
   // social usernames (optional)
   twitter: 'MiscMisty',
   github: 'NyaMisty',
-  linkedin: null,
+  linkedin: 'leanbizvn',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
@@ -61,11 +61,11 @@ export default siteConfig({
       pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
     },
     {
-      title: 'About',
+      title: 'Về chúng tôi',
       pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
     },
     {
-      title: 'Contact',
+      title: 'Liên hệ',
       pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
     }
   ]
