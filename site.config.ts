@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'f4374a047d3941f39b52fc3bdc6d58cf',
+  rootNotionPageId: 'Bct-SL-640d268cd1f645fd8100d95ce288debe',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Misty 项目草稿',
-  domain: 'drafts.misty.moe',
-  author: 'Misty',
-
+  name: 'Bột cần tây sấy lanh',
+  domain: 'botcantaysaylanh.com',
+  author: 'MeliFarm.vn',
+ 
   // open graph metadata (optional)
-  description: '这里是Misty存放她平时工作项目笔记的地方，欢迎来这里搜罗信息',
+  description: 'Bột cần tây sấy lạnh',
   // socialImageTitle: 'Misty 项目草稿',
   // socialImageSubtitle: 'Hello World! 👋',
 
@@ -53,16 +53,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
+    },
+    {
+      title: 'Contact',
+      pageId: 'Kho-h-c-9e60761d80d74f38b598534ac7967646'
+    }
+  ]
 })
